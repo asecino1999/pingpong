@@ -41,8 +41,8 @@ export default class AppP5 extends React.Component {
     super()
     this.x = 20;
     this.y = 20;
-    this.dx = 5;
-    this.dy = 5;
+    this.dx = 1;
+    this.dy = 1;
     this.audio = null
     var me = this
     this.advised2 = {
