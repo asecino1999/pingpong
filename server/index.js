@@ -8,5 +8,5 @@ app.get('/music.mp3', function(req, res){
   });
 
 app.listen(8080,()=>{
-    console.log("listeing")
+    console.log("listening")
 })
