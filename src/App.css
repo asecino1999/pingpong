@@ -28,6 +28,11 @@ body {background-color:  #666f83;
   background-color: #666f83;
   
 }
-.sk{
+.quitarB{
+  border: none;
+  background: #282c34;
+  color: aliceblue;
+  margin: 5px;
+  padding: 15px;
   
 }

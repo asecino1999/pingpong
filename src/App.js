@@ -53,7 +53,7 @@ class App extends React.Component{
     //console.log(advised)
 
     return(<div className = {"aller"}   >
-      <button onClick = {()=>this.setState({rest:!this.state.rest})}  >
+      <button className ={ "quitarB"} onClick = {()=>this.setState({rest:!this.state.rest})}  >
         {this.boton()}
       </button>
       <div id="sketch-holder"  className= {"sk"}>
