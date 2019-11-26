@@ -52,11 +52,14 @@ class App extends React.Component{
     //advised.add(2);  // Should equal 4.  
     //console.log(advised)
 
-    return(<div>
+    return(<div className = {"aller"}   >
       <button onClick = {()=>this.setState({rest:!this.state.rest})}  >
         {this.boton()}
       </button>
-      <AppP5 value={this.state.rest} ></AppP5>
+      <div id="sketch-holder"  className= {"sk"}>
+      <AppP5 className = {"aller"}  value={this.state.rest} ></AppP5>
+      </div>
+      
     </div>)
   }
 }

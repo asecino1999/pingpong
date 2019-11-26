@@ -1,11 +1,14 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
+body {background-color:  #666f83;
+} 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +22,12 @@
 
 .App-link {
   color: #09d3ac;
+}
+.aller{
+  text-align: center;
+  background-color: #666f83;
+  
+}
+.sk{
+  
 }

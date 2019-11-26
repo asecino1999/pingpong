@@ -134,7 +134,8 @@ export default class AppP5 extends React.Component {
 */
         this.audio=new Audio('http://localhost:8080/music.mp3');
         this.dieAudio = new Audio('http://localhost:8080/die.mp3');
-        p5.createCanvas(500, 500);
+        var canvas = p5.createCanvas(500, 500);
+        canvas.parent('sketch-holder');
         p5.background(0);
 
         p5.paddle2 = 10;
